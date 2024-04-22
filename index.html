@@ -7,16 +7,26 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div>
-      <nav>
-        <img src="assets\images\logo.png" />
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Contact</a></li>
+    <div
+      class="container min-h-screen bg-[url('../assets/images/Image.png')] bg-center bg-cover px-28 py-g"
+    >
+      <nav class="flex items-center">
+        <img src="assets\images\logo.png" class="w-40 cursor-pointer" />
+        <ul class="flex-1 text-center">
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">About</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Home</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Features</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Contact</a>
+          </li>
         </ul>
-        <img src="assets\images\cart.png" />
+        <img src="assets\images\cart.png" class="w-8 cursor-pointer" />
       </nav>
     </div>
   </body>
