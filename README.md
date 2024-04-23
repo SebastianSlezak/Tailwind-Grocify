@@ -1,4 +1,4 @@
-## Webpage Documentation
+## Tailwind-Grocify
 
 ### Overview
 This HTML document structures a webpage typically used for a grocery delivery service, featuring a full-screen background image, a navigation bar, main content with headline, description, and call-to-action buttons, and a right-sided grocery image for larger screens.
